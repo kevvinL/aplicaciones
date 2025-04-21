@@ -1,0 +1,92 @@
+/* estilo.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ff69b4;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+#titulo {
+    font-size: 28px;
+    margin: 0;
+}
+
+#centrado {
+    text-align: center;
+}
+
+section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form table, section > table {
+    background: white;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+input[type="submit"] {
+    background: #ff1493;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #e0137c;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+#ganadora {
+    background-color: #ffe4e1;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+}
+
+h5 {
+    margin: 0;
+}
